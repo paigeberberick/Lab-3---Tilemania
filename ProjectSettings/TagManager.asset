@@ -47,6 +47,9 @@ TagManager:
   - name: Platforms
     uniqueID: 2629395537
     locked: 0
+  - name: Player
+    uniqueID: 2807212717
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []

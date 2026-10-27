@@ -50,11 +50,14 @@ TagManager:
   - name: Platforms
     uniqueID: 2629395537
     locked: 0
-  - name: Player
-    uniqueID: 2807212717
-    locked: 0
   - name: Climbing
     uniqueID: 1514457273
+    locked: 0
+  - name: Enemy
+    uniqueID: 3082762481
+    locked: 0
+  - name: Player
+    uniqueID: 2807212717
     locked: 0
   m_RenderingLayers:
   - Default

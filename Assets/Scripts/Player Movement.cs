@@ -90,13 +90,15 @@ public class PlayerMovement : MonoBehaviour
 
     void Die()
     {
-        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy")))
+        int enemyMask = LayerMask.GetMask("Enemy");
+     
+
+        if (myBodyCollider.IsTouchingLayers(enemyMask))
         {
+
             isAlive = false;
-            myRigidbody.linearVelocity = deathKick; // small bounce on death
-            myRigidbody.gravityScale = startingGravity;
-
-
+            myRigidbody.linearVelocity = deathKick;
+            myAnimator.SetTrigger("Dying");
         }
     }
 }

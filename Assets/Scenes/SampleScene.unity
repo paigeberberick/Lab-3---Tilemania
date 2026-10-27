@@ -68250,7 +68250,7 @@ GameObject:
   - component: {fileID: 1321141348}
   - component: {fileID: 1321141347}
   - component: {fileID: 1321141346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93767,9 +93767,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1052928121405884615, guid: ecdcf45372fed6140831569cb7678893, type: 3}
+      propertyPath: jumpSpeed
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 2132150473527859735, guid: ecdcf45372fed6140831569cb7678893, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435239210481924369, guid: ecdcf45372fed6140831569cb7678893, type: 3}
+      propertyPath: m_GravityScale
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2716675354210774352, guid: ecdcf45372fed6140831569cb7678893, type: 3}
       propertyPath: m_LocalPosition.x

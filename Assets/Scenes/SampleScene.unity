@@ -94408,11 +94408,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2435239210481924369, guid: ecdcf45372fed6140831569cb7678893, type: 3}
       propertyPath: m_GravityScale
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2716675354210774352, guid: ecdcf45372fed6140831569cb7678893, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.65
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: 2716675354210774352, guid: ecdcf45372fed6140831569cb7678893, type: 3}
       propertyPath: m_LocalPosition.y
